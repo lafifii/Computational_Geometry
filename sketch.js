@@ -4,7 +4,7 @@ var title = "Computational Geometry Algorithms";
 function setup() {
   f = loadFont('CoderC.ttf');
   textFont(f);
-  textSize(30);
+  textSize(25);
   stars = new Array(800);
   for(var i = 0; i < stars.length; ++i){
     stars[i] = {x: random(-width,width), y : random(-height,height),
@@ -12,8 +12,9 @@ function setup() {
     stars[i].pz = stars[i].z;
   }
   createCanvas(windowWidth,windowHeight);
-  B.push(new Box(0,0,height/40,width/20, 'earclip/index.html',"ear clipping triangulation",'#50BFE6'));
   B.push(new Box(0,height/40*3,height/40,width/20,'clos2d/index.html',"sweep line: closest points",'#FF6EFF'));
+  B.push(new Box(0,0,height/40,width/20, 'earclip/index.html',"ear clipping triangulation",'#50BFE6'));
+  B.push(new Box(0,height/40*6,height/40,width/20, 'monopol/index.html',"triangulation y-monotone polygon",'#EE34D2'));
   var mx = 0;
   for(i = 0; i < B.length; ++i) mx = max(mx, B[i].w);
   for(i = 0; i < B.length; ++i) B[i].w = mx*2;
