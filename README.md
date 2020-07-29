@@ -28,7 +28,7 @@ it does not intersect with other segment in the polygon.
 ## Closest 2D Point with a Sweep Line Algorithm 
 
 The closest pair of points problem or closest pair problem is a problem of computational geometry: given n points in metric space, 
-find a pair of points with the smallest distance between them. A naive algorithm of checking every pair of point would take us to a img src="https://render.githubusercontent.com/render/math?math=O(n^2)">
+find a pair of points with the smallest distance between them. A naive algorithm of checking every pair of point would take us to a <img src="https://render.githubusercontent.com/render/math?math=O(n^2)">
 solution, which is very slow for big inputs. 
 
 Sweep Line Algorithms: This kind of algorithms rely on the idea of imagining that a line (often a vertical line) is swept or moved across the plane, stopping at some points. Geometric operations are restricted to geometric objects that either intersect or are in the immediate vicinity of the sweep line whenever it stops, and the complete solution is available once the line has passed over all objects.
