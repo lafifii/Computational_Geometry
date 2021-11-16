@@ -1,4 +1,6 @@
-# [Computational Geometry](https://lafifii.github.io/Computational_Geometry/)
+# Computational Geometry
+
+[Try here](https://lafifii.github.io/Computational_Geometry/)
 
 <p align="center">
 <a href="https://imgflip.com/gif/3umg1m"><img src="https://i.imgflip.com/3umg1m.gif" title="made at imgflip.com"/></a>
