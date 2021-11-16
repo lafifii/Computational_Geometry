@@ -43,3 +43,5 @@ for every point and iterating over the points is linear. At the end we get a <im
 <p align="center">
 <a href="https://imgflip.com/gif/3umi8m"><img src="https://i.imgflip.com/3umi8m.gif" title="made at imgflip.com"/></a>
 </p>  
+
+## Triangulate y monotone polygon
